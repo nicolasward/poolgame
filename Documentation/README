@@ -1,0 +1,26 @@
+README
+
+
+1. Nous avons été jusqu'à P13 (extension comprise). Concernant P11, nous n’avons pas fait les tests. Nous avons seulement implémenté toutes les classes, défini leurs méthodes, et fait en sorte qu’elles s’affichent.
+2. Nous n'avons pas fait de version graphique.
+3. Nous avons consacré en moyenne 4 heures par personne par semaine au projet.
+
+
+Notre projet est organisé par exercices. Chaque exercice est dans un dossier séparé et contient son propre fichier test (sauf P12).
+
+
+Comment compiler notre projet depuis Geany (ou autre):
+
+Ouvrez le fichier principal (fichier test) de la partie que vous souhaitez lancer dans Geany (ou autre).
+Sélectionnez ensuite "make custom target" puis écrivez "clean" afin d'enlever les éventuels “.o” (même si ils ont été enlevés dans les dossiers, si jamais vous compilez, il faudra effectuer cette commande).
+Enfin, cliquez sur "make all".
+Avec un peu de chance, ça compile :-)
+
+Remarque: P1 n’est pas en conception modulaire, il suffit de le compiler puis de l’exécuter depuis Geany.
+
+
+Comment afficher notre projet sur le terminal:
+
+Ici, ce sera la méthode classique, à savoir: ouvrir un terminal, y écrire "cd /nom chemin", puis entrée, puis "make", 
+puis entrée, et enfin "./" suivi du nom du fichier test sans “.cc”.
+Et voilà :-)
